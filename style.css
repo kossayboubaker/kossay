@@ -1,0 +1,152 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
+    margin: auto;
+    max-width: 1200px;
+}
+
+.srkl {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    background-color: white;
+    width: 100%;
+}
+header {
+    height: 160px;
+    padding-top: 10px;
+    color: white;
+    background-color: rgb(41, 69, 82);
+    background-repeat:inherit;
+   
+}
+
+.photo {
+    margin-left: 6%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    overflow :hidden;
+    background-color: red;
+}
+.personne{
+    margin-left: 25%;
+    margin-top: -10%;
+    
+}   
+h3{
+    color: #13c3ba;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 20px;
+}
+.post{
+    color: orange;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+.right{
+    padding-right: 100px;
+    margin: 260px;
+    margin-right: 70px;
+    margin-top: -100px;
+    text-decoration-color: black ;
+}
+.right p{
+   margin-left: 600px;
+   letter-spacing: .1rem;    
+   text-decoration-color: black ;
+}
+.info{
+    width: 20px;
+    height: 20px;
+}
+.section-left{
+    background-color: white;
+    float: right;
+    width: 75%;
+    background-color: white;
+    margin-top: 6px;
+    
+}
+.section-right{
+    background-color: white;
+    float: right;
+    width: 25%;
+    margin-top: 5px;
+    background-color: white;
+    text-align: center;
+}
+ h4{
+    margin-left: 10%;
+    color: #13c3ba;
+    letter-spacing: .1rem;
+    font-size: 18px;
+}
+hr.light{
+ border-top: 2px solid #13c3ba;
+ width: 90%;
+ margin-top: .8rem;
+ margin-bottom: 1rem;
+}
+.atouts{
+    display: grid;
+    
+    margin-left: 10%;
+    margin-top: 20px;
+    
+}
+.div{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.skls {
+    padding: 0px;
+    width: 40%;
+    margin-left: 10%
+}
+.cool {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 7px;
+}
+
+.po {
+    margin-top: 20px;
+   
+}
+strong{
+    color: #13c3ba;
+    text-decoration: none; 
+}
+.inner {
+    height: 100%;
+    background-color:  rgb(209, 140, 10);
+    text-align: center;
+}
+img {
+    display: inline-block;
+    
+    
+}
+.interet{
+    float: left;
+    width: 20vw;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+span{
+    margin-left: 10px;
+}
+
+        a.right:hover{ color:rgb(41, 69, 82);}
+		a.test:link 	{ color:green;}
+		a:visited 	{ color:rgb(50, 201, 12);}
+        a:focus{color: red;}
+        
